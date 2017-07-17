@@ -26,15 +26,15 @@ ScKeynodes.prototype.init = function() {
         
         this.resolveKeynode('nrel_ui_commands_decomposition'),
         
-        this.resolveKeynode('ui_command_initiated'),
-        this.resolveKeynode('ui_command_finished'),
+        this.resolveKeynode('command_initiated'),
+        this.resolveKeynode('command_finished'),
         this.resolveKeynode('ui_nrel_user_used_language'),
         this.resolveKeynode('ui_nrel_user_default_ext_language'),       
         
         this.resolveKeynode('languages'),
         this.resolveKeynode('lang_ru'),
         
-        this.resolveKeynode('binary_types'),
+        this.resolveKeynode('binary_type'),
         this.resolveKeynode('binary_float'),
         this.resolveKeynode('binary_int8'),
         this.resolveKeynode('binary_int16'),

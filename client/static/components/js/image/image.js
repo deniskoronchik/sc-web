@@ -1,5 +1,5 @@
 ImageComponent = {
-    formats: ['format_png', 'format_jpg', 'format_gif'],
+    formats: ['format_png', 'format_jpg', 'format_gif', 'format_svg'],
     factory: function(sandbox) {
         return new ImageViewer(sandbox);
     }
@@ -14,7 +14,7 @@ var ImageViewer = function(sandbox){
         var dfd = new jQuery.Deferred();
 
         $(this.container).empty();
-        $(this.container).append('<img src="' + data + '" style="width: 100%; height: 100%;"></img>');
+        $(this.container).append('<img src="' + data + '" style="min-width: 100px; width: 100%; height: 100%;"></img>');
 
         dfd.resolve();
         return dfd.promise();
