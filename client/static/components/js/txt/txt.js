@@ -26,7 +26,7 @@ var TextViewer = function(sandbox){
                           ], 
                           {"x": 0}),
             SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_3F_A_F,
-                           [window.scKeynodes.binary_types,
+                           [window.scKeynodes.binary_type,
                             sc_type_arc_pos_const_perm,
                             "x"
                            ])

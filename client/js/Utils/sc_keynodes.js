@@ -34,7 +34,7 @@ ScKeynodes.prototype.init = function() {
         this.resolveKeynode('languages'),
         this.resolveKeynode('lang_ru'),
         
-        this.resolveKeynode('binary_types'),
+        this.resolveKeynode('binary_type'),
         this.resolveKeynode('binary_float'),
         this.resolveKeynode('binary_int8'),
         this.resolveKeynode('binary_int16'),
